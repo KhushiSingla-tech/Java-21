@@ -6,6 +6,8 @@ import java.util.LinkedHashSet;
 
 public class SequenceCollection {
     public static void main(String[] args) {
+        // Introduced generic methods to add elements at the beginning and end of the collection,
+        // and to get the first and last elements of the collection and to reverse the collection.
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(1);
         arrayList.add(2);
